@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+}
+
+body {
+    background-color: #212529;
+    /* background: rgb(59,59,59); */
+    /* background: linear-gradient(27deg, rgba(59,59,59,1) 0%, rgba(4,4,4,1) 100%); */
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 75px;
+    /* background-color: wheat; */
+}
+
+.header h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: white;
+}
+
+.header p {
+    font-family: 'Oswald', sans-serif;
+    color: #DEE2E6;
+}
+
+.header hr {
+    margin-top: 5px;
+    color: #6C757D;
+}
+
+/* MAIN */
+
+.main {
+    width: 100%;
+}
+
+.main button {
+    margin-top: 5px;
+    font-family: 'Golos Text', sans-serif;
+    width: 150px;
+    height: 30px;
+    border: solid #6C757D 1px;
+    border-radius: 4px;
+    background-color: #212529;
+    display: inline-block;
+    color: white;
+}
+
+.main p {
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+}
+
+.main button:hover {
+    cursor: pointer;
+    background-color: #DEE2E6;
+}
+
+/* TABLE */
+
+.guesses td#title{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 5px;
+    border-bottom: solid white 1px;
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+}
+
+.guesses td{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: solid white 1px;
+    font-family: 'Golos Text', sans-serif;
+    color: white;
+}
+
+/* LIST */
+/* 
+form {
+    width: 75vmin;
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    padding: 40px 0;
+} */
+
+input[type="text"] {
+    font-family: 'Golos Text', sans-serif;
+    width: 75vmin;
+    /* width: 100%; */
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    background-color: #FFF;
+    color: #212529;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    font-family: 'Golos Text', sans-serif;
+    width: 75vmin;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+}
+
+.list-items {
+    padding: 15px 5px;
+}
+
+.list-items:hover {
+    background-color: #dddddd;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAPDLE</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- ALERRTY -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- JS -->
+    <script src="raper-list.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <section class="header">
+            <h2><b>PLRAPDLE</b></h2>
+            <p>Zgadnij dzisiejszego rapera</p>
+            <hr>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br>
+        <section class="main">
+            <br>
+                <div class="form-div">
+                    <input type="text" id="input" placeholder="   Podaj nazwe rapera" required/>
+                </div>
+                <ul class="list"></ul>
+                <button onclick="AddToTable()" id="check-btn">SPRAWDŹ</button>
+            <br>
+        </section>
+        <br> <br> <br>
+        <section class="guesses">
+            <table id="GuessesTable">
+                <tr>
+                    <td id="title">Raper/<br>Raperzy</td>
+                    <td id="title">Ilość wykonawców</td>
+                    <td id="title">Płeć</td>
+                    <td id="title">Gatunek</td>
+                    <td id="title">Narodowosc</td>
+                    <td id="title">Kraj urodzenia</td>
+                    <td id="title">Rok wydania debiutanckiego albumu</td>
+                  </tr>
+            </table>
+        </section>
+    </center>
+    <script src="suggestions.js"></script>
+</body>
+</html>
